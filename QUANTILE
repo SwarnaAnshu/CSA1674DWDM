@@ -1,0 +1,6 @@
+names<-c("Anshu","Bhargav","sadik")
+age<-c(18,19,20)
+marks<-c(88,89,90)
+df<-data.frame(names,age,marks)
+quantile(df $age)
+write.csv(df,"datafr.csv")
